@@ -1,0 +1,27 @@
+Task 2.0 - GCN
+=================================================
+Total time elapsed: 4.6246s
+Test set results: loss= 1.0604 accuracy= 0.6570 precision= 0.6555 recall= 0.6103 F1= 0.6166
+
+
+Task 2.1 - 2-layer GCN
+=================================================
+Total time elapsed: 4.4958s
+Test set results: loss= 1.4872 accuracy= 0.5180 precision= 0.4637 recall= 0.4889 F1= 0.4698
+
+
+
+Task 2.2 - 2-layer GCN with shared parameters
+==================================================
+Total time elapsed: 9.6367s
+Test set results: loss= 1.0984 accuracy= 0.6530 precision= 0.6136 recall= 0.6268 F1= 0.6165
+
+Comparison and Analysis:
+
+Accuracy: The standard GCN and the 2-layer GCN with shared parameters have similar accuracies (65.70% and 65.30%, respectively), significantly higher than the 2-layer GCN (51.80%).
+
+Precision and Recall: The standard GCN has the highest precision (65.55%) and a good recall (61.03%). The 2-layer GCN with shared parameters, while close in accuracy, falls short in precision (61.36%) and is slightly better in recall (62.68%). The 2-layer GCN has noticeably lower precision and recall.
+
+F1 Score: The F1 score, which balances precision and recall, is highest in the standard GCN (61.66%), closely followed by the 2-layer GCN with shared parameters (61.65%). The 2-layer GCN has a significantly lower F1 score (46.98%).
+
+Total Time Elapsed: The standard GCN and the 2-layer GCN are comparable in terms of computation time, but the 2-layer GCN with shared parameters takes more than double the time.

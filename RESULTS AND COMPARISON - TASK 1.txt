@@ -1,0 +1,17 @@
+Task 1.0 - GCN
+=================================================
+Total time elapsed: 4.4236s
+Test set results: loss= 1.0794 accuracy= 0.6490
+
+
+Task 1.1 - 2-layer GCN
+=================================================
+Total time elapsed: 4.9171s
+Test set results: loss= 1.4529 accuracy= 0.5670
+
+
+
+Task 1.2 - 2-layer GCN with shared parameters
+==================================================
+Total time elapsed: 7.3976s
+Test set results: loss= 1.1486 accuracy= 0.6560
